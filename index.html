@@ -10,21 +10,23 @@
         <h1> Coucou mon Amour  </h1>
 <p>Parce que je t'aime, tu me manque breaucoup. </p>
       <p>Je suis fière de ton évolution</p>
-<button type= "button" onclick ="montrermaphoto()">Clique ici! </button>  
-      <div id="surprise" style="display:none;">
-    <p>Tadam ! ❤️</p>
-    <img src="moi.jpg" style="max-width:300 px; border-radius:15 px;">
-</div>
+<button type="button" onclick="montrerMaPhoto()">Clique ici !</button>
+
+        <div id="surprise" style="display:none; margin-top:20 px;">
+            <p>Tadam ! ❤️</p>
+            <img src="moi.jpg" alt="Photo de moi" style="max-width:300 px; border-radius:15 px; border: 5 px solid white; box-shadow: 0 4 px 8  px rgba (0,0,0,0.2);">
+        </div>
     </main>
-<script>
-  function  montrermaphoto() {
-        var x = document.getElementById("surprise");
-        if (x.style.display ="none") {
-            x.style.display ="block";
-        } else {
-            x.style.display ="none";
+
+    <script>
+        function montrerMaPhoto () {
+            var x = document.getElementById("surprise");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
         }
-    }
-</script>
- </body>
+    </script>
+</body>
 </html>
