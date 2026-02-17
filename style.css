@@ -1,0 +1,56 @@
+/* Le fond de la page */
+body {
+    background-color: #fce4ec; /* Un rose très doux */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4A4A4A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+/* Le titre principal */
+h1 {
+    color: #d81b60; /* Un rose plus intense */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Les paragraphes */
+p {
+    font-size: 1.2rem;
+    margin: 10px 20px;
+}
+
+/* Le bouton magique */
+button {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 64, 129, 0.4);
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+/* Effet quand on passe la souris sur le bouton */
+button:hover {
+    background-color: #f50057;
+    transform: scale(1.05); /* Le bouton grossit légèrement */
+}
+
+/* Style pour l'image quand elle apparaît */
+img {
+    max-width: 300px;
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    margin-top: 20px;
+}
