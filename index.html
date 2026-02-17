@@ -1,3 +1,29 @@
-<h1> Aurore- Gestion de projet  </h1>
-<p>Bienvenue sur mon portfolio. </p>
-<button> voir mes projet</button>
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset = "UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title> Pour mon amour Glenn 🥰</title>  
+  </head>
+  <body>
+    <main>
+        <h1> Coucou mon Amour  </h1>
+<p>Parce que je t'aime, tu me manque breaucoup. </p>
+      <p>Je suis fière de ton évolution</p>
+<button type= "button" onclick ="montrer ma photo()">Clique ici! </button>  
+      <div id= "surprise" style="display:none;">
+        <p>Tadam! 💕</p>
+      </div>
+  </body>
+    </main>
+<script>
+        function montrerMaPhoto() {
+            var x = document.getElementById("surprise");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+   }
+    </script>
+
